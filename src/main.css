@@ -9,3 +9,8 @@
   --text-color-primary-light: #3E3E3E;
   --text-color-secondary-light: #505050;
 }
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}

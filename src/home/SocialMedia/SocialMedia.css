@@ -5,4 +5,32 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: 28px;
+  gap: 10px;
+  position: absolute;
+  left: 1600px;
+  cursor: pointer;
+}
+
+.SocialMedia-Dark {
+  color: var(--title-color-dark);
+}
+
+.SocialMedia-Light {
+  color: var(--title-color-light);
+}
+
+.lineSocialMedia {
+  width: 3px;
+  height: 63px;
+}
+
+.lineSocialMedia-Dark {
+  background-color: var(--title-color-dark);
+}
+
+.lineSocialMedia-Light {
+  background-color: var(--title-color-light);
 }

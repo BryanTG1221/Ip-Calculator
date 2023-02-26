@@ -7,12 +7,20 @@ body {
   font-family: 'Raleway';
 }
 
-.HomePage-Light {
+.HomePage {
   width: 100%;
   height: 100vh;
   background-color: var(--primary-color-light);
   display: flex;
   flex-direction: column;
+}
+
+.HomePage-Light {
+  background-color: var(--primary-color-light);
+}
+
+.HomePage-Dark {
+  background-color: var(--primary-color-dark);
 }
 
 .LandingInfo__Content {
@@ -21,7 +29,7 @@ body {
   align-items: center;
 }
 
-.titleLight {
+.title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,12 +38,34 @@ body {
   font-weight: bold;
 }
 
-.thirdTitleLight {
+.titleLight {
+  color: var(--title-color-light);
+}
+
+.titleDark {
+  color: var(--title-color-dark);
+}
+
+.third {
   font-size: 20px;
+}
+
+.thirdTitleLight {
   color: var(--text-color-secondary-light);
 }
 
-.secondTitleLight {
+.thirdTitleDark {
+  color: var(--text-color-secondary-dark);
+}
+
+.second {
   font-size: 18px;
+}
+
+.secondTitleLight {
   color: var(--text-color-primary-light);
+}
+
+.secondTitleDark {
+  color: var(--text-color-primary-dark);
 }
