@@ -1,0 +1,43 @@
+@import url('../../main.css');
+
+.Nav-Container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.Nav__Content {
+  width: 1366px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nismoLogo {
+  font-family: 'Fjalla one', sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.logoLight {
+  color: var(--title-color-light);
+}
+
+.logoDark {
+  color: var(--title-color-dark);
+}
+
+.btnLinkApp {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: var(--ascent-color);
+  color: var(--title-color-dark);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}

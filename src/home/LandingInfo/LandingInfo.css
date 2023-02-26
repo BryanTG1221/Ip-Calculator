@@ -1,0 +1,17 @@
+.Landing__Circle {
+  width: 440px;
+  height: 440px;
+  background: linear-gradient(142.57deg, rgba(46, 0, 231, 0.9) 21.92%, rgba(36, 13, 126, 0.970126) 54.17%, #1F1351 71.06%, #180D42 85.74%);
+  position: absolute;
+  border-radius: 50%;
+}
+.Landing__ImageVector {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgVector {
+  z-index: 1;
+}

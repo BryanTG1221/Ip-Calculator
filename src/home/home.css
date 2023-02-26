@@ -1,0 +1,41 @@
+@import url('../main.css');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway';
+}
+
+.HomePage-Light {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--primary-color-light);
+  display: flex;
+  flex-direction: column;
+}
+
+.LandingInfo__Content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleLight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.thirdTitleLight {
+  font-size: 20px;
+  color: var(--text-color-secondary-light);
+}
+
+.secondTitleLight {
+  font-size: 18px;
+  color: var(--text-color-primary-light);
+}
