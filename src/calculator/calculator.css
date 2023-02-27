@@ -1,0 +1,15 @@
+.calculator {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator-Light {
+  background-color: var(--primary-color-light);
+}
+
+.calculator-Dark {
+  background-color: var(--primary-color-dark);
+}

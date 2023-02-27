@@ -3,15 +3,9 @@ import { Nav } from './Nav/Nav.jsx'
 import { LandingInfo } from './LandingInfo/LandingInfo'
 import { SocialMedia } from './SocialMedia/SocialMedia'
 
-export function HomePage () {
-  const date = new Date()
-  const hours = date.getHours()
-  console.log(hours)
-  let themeUI
-  hours < 19 && hours > 7 ? themeUI = 'Light' : themeUI = 'Dark'
-  console.log(themeUI)
+export function HomePage ({ themeUI }) {
   return (
-    <div className={hours < 19 && hours > 7 ? 'HomePage HomePage-Light' : 'HomePage HomePage-Dark'}>
+    <div className={themeUI === 'Light' ? 'HomePage HomePage-Light' : 'HomePage HomePage-Dark'}>
       <Nav theme={themeUI} />
       <div className='LandingInfo__Content'>
         <LandingInfo theme={themeUI} />
